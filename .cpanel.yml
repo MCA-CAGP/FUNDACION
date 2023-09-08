@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export DEPLOYMENT_SOURCE=/home/go424xtdv44a/repositories/FUNDACION
+    - export DEPLOYMENT_DEST=/home/go424xtdv44a/public_html
+    - /bin/cp -R $DEPLOYMENT_SOURCE/* $DEPLOYMENT_DEST/
