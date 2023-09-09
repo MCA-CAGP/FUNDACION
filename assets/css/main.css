@@ -233,7 +233,7 @@ figure {
 img,
 video {
     max-width: 100%;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 :root {
@@ -1881,7 +1881,6 @@ form .btn {
 
 .home-gallery .item {
     position: relative;
-    align-items: center;
 }
 
 .home-gallery .item .content {
