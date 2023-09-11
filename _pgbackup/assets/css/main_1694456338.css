@@ -224,7 +224,6 @@ p {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 400;
-    text-align: justify;
 }
 
 figure {
@@ -1949,7 +1948,6 @@ form .btn {
 
 .home-intro p {
     color: #5f4646;
-    text-align: justify;
 }
 
 .home-intro p:not(:last-child) {
