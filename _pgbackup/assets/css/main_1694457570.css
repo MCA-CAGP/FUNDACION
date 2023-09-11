@@ -608,16 +608,12 @@ video {
     width: 100%;
     height: auto;
     margin: auto;
-    vertical-align: bottom;
-    align-items: flex-end;
 }
 
 .img-cover {
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    vertical-align: middle;
-    align-items: flex-end !important;
 }
 
 @media (max-width:992px) and (orientation:landscape){
@@ -1861,6 +1857,7 @@ form .btn {
 
 @media screen and (min-width:64rem){
     .home-gallery {
+        height: 70vh;
     }
 }
 
