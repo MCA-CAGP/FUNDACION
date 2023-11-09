@@ -45,6 +45,10 @@
         <noscript>
             <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZ2MJ7R" height="0" width="0" style="display:none;visibility:hidden"></iframe>
         </noscript>
+        <div id="preloader">
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>             
+            <dotlottie-player src="https://lottie.host/33b02f93-8633-4917-bdf1-a12bbb2a6da4/V80YBrSDPg.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+        </div>
         <div class="main-wrapper app container-fluid">
             <header class="header header-main">
                 <div class="container mx-auto">
@@ -218,17 +222,15 @@
                 </main>
                 <footer class="footer">
                     <div class="container mx-auto">
-                        <div class="footer__wrapper"><a class="logo"><img class="logo--footer" src="../assets/img/logo-sm.png" alt="Fundación Don Antonio Rivera Venegas"><p>Fundación D.A.R.V.</p></a>
-                            <div class="footer__block hidden">
-                                <h5 class="footer__block-title">Menú</h5>
-                                <p><a class="footer__link hidden" href="/nosotros">Nosotros</a></p>
-                                <p><a class="footer__link" href="/actividades">Nuestras actividades</a></p>
-                                <p><a class="footer__link" href="/logros">Logros de la Fundación</a></p>
-                                <p class="hidden"><a class="footer__link" href="#">Noticias</a></p>
-                            </div>
+                        <div class="footer__wrapper" style="padding-top: 25px; margin-top: 0px;">
+                            <a class="logo"><img class="logo--footer" src="./assets/img/logo-sm.png" alt="Fundación Don Antonio Rivera Venegas"><p>Fundación D.A.R.V.</p></a>
                             <div class="footer__block footer__contact">
                                 <h5 class="footer__block-title">Contacto</h5>
                                 <p><a class="footer__link" href="/contacto">Carretera federal, km 82.5, Oaxaca, México. C.P 70400</a></p>
+                            </div>
+                            <div class="footer__block footer__contact">
+                                <h5 class="footer__block-title">Disclaimer de Fundación Don Antonio Rivera Vengas</h5>
+                                <p><a class="footer__link" href="/contacto">Fundación DARV es una entidad privada sin fines de lucro, independiente y autónoma, que no está afiliada ni respaldada por ningún partido político, entidad gubernamental o grupo religioso. Nuestra misión se centra en promover el bienestar comunitario&quot;, &quot;fomentar la educación y el desarrollo sostenible&quot;.&nbsp;</a></p>
                             </div>
                             <div class="footer__block footer__social"><a class="footer__link footer__social-icon hidden" href="#"><i class="bx bxl-facebook"></i></a><a class="footer__link footer__social-icon hidden" href="#"><i class="bx bxl-instagram"></i> </a><a class="footer__link footer__social-icon hidden" href="#"><i class="bx bxl-twitter"></i></a>
                             </div>
@@ -239,5 +241,6 @@
             </div>
         </div>
     </body>
+    <script src="../assets/js/main.js"></script>
     <script src="../assets/js/main.scripts.min.js"></script>
 </html>
