@@ -1745,3 +1745,9 @@ form .btn {
 
     /* Añade esta línea */
 }
+
+.effect {
+    width: 100%;
+    height: 65vh;
+    border-radius: 23px;
+}
